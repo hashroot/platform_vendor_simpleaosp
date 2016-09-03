@@ -24,6 +24,10 @@ ifneq ($(filter saosp_bullhead,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/bullhead.zip:system/media/bootanimation.zip
 endif
+ifneq ($(filter saosp_mako,$(TARGET_PRODUCT)),)
+    PRODUCT_COPY_FILES += \
+        $(LOCAL_PATH)/mako.zip:system/media/bootanimation.zip
+endif
 ifneq ($(filter saosp_shamu,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/shamu.zip:system/media/bootanimation.zip

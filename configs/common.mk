@@ -33,9 +33,15 @@ PRODUCT_PACKAGES += \
     Busybox \
     Launcher3
 
-# Proprietary latinime lib needed for swyping
+# Proprietary latinime libs needed for Keyboard swyping
+ifneq ($(filter saosp_shamu saosp_mako,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+     $(LOCAL_PATH)/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+else
+PRODUCT_COPY_FILES += \
+    vendor/simpleaosp/prebuilts/lib64/libjni_latinime.so:system/lib64/libjni_latinime.so
+endif
+
 
 # Enable sip+voip on all targets
 PRODUCT_COPY_FILES += \

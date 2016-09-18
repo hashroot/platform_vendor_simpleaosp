@@ -4,6 +4,9 @@ PRODUCT_BRAND ?= simpleaosp
 # Local path for prebuilts
 LOCAL_PATH:= vendor/simpleaosp/prebuilts/common/system
 
+# Jack server heap size
+export ANDROID_JACK_VM_ARGS += "-Xmx4g"
+
 # Common build prop overrides 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false \

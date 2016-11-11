@@ -27,7 +27,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1 \
     ro.adb.secure=1 \
     persist.sys.dun.override=0 \
-    ro.storage_manager.enabled=1
+    ro.storage_manager.enabled=1 \
+    net.tethering.noprovisioning=true
 
 # Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/simpleaosp/overlays/common

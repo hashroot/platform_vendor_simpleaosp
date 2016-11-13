@@ -59,7 +59,8 @@ PRODUCT_COPY_FILES +=  \
 endif
 
 # Bootanimation support
-include vendor/simpleaosp/configs/bootanimation.mk
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/media/bootanimation.zip:system/media/bootanimation.zip
 
 ## Don't compile SystemUITests
 EXCLUDE_SYSTEMUI_TESTS := true

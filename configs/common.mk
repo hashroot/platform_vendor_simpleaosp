@@ -25,9 +25,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.est_max_time=600 \
     ro.facelock.use_intro_anim=false \
     ro.build.selinux=1 \
-    ro.adb.secure=1 \
+    ro.adb.secure=0 \
     persist.sys.dun.override=0 \
     ro.storage_manager.enabled=1 \
+    persist.service.adb.enable=1 \
     net.tethering.noprovisioning=true
 
 # Common overlays

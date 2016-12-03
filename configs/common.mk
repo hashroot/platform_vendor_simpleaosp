@@ -29,6 +29,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.dun.override=0 \
     ro.storage_manager.enabled=1 \
     persist.service.adb.enable=1 \
+    persist.audio.fluence.voicecall=false\
     net.tethering.noprovisioning=true
 
 # Common overlays

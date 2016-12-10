@@ -38,7 +38,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/simpleaosp/overlays/common
 # Needed Packages
 PRODUCT_PACKAGES += \
     Busybox \
-    Launcher3
+    Launcher3 \
+    WallpaperPicker
 
 # Proprietary latinime libs needed for Keyboard swyping
 ifneq ($(filter saosp_shamu saosp_mako,$(TARGET_PRODUCT)),)

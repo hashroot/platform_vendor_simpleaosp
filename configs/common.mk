@@ -41,6 +41,10 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     WallpaperPicker
 
+# Import library to fix trusted face issues
+PRODUCT_PACKAGES += \
+libprotobuf-cpp-full \
+
 # Proprietary latinime libs needed for Keyboard swyping
 ifneq ($(filter saosp_shamu saosp_mako,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES += \

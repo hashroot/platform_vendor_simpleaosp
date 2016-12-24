@@ -43,6 +43,13 @@ PRODUCT_PACKAGES += \
     WallpaperPicker \
     Masquerade
 
+# DU Utils Library
+PRODUCT_PACKAGES += \
+    org.dirtyunicorns.utils
+
+PRODUCT_BOOT_JARS += \
+    org.dirtyunicorns.utils
+
 # Import library to fix trusted face issues
 PRODUCT_PACKAGES += \
 libprotobuf-cpp-full \

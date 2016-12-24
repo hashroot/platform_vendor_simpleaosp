@@ -12,5 +12,6 @@ PRODUCT_MODEL := Nexus 4
 PRODUCT_MANUFACTURER := LGE
 
 # Build prop fingerprint overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="occam" BUILD_FINGERPRINT="google/occam/mako:7.0/NBD90X/3254009:user/release-keys" PRIVATE_BUILD_DESC="occam-user 7.0 NBD90X 3254009 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="occam" BUILD_FINGERPRINT="google/occam/mako:7.1.1/NMF26Q/3425388:user/release-keys" PRIVATE_BUILD_DESC="occam-user 7.1.1 NMF26Q 3425388 release-keys"
+
 

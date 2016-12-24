@@ -17,6 +17,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.wifi-watchlist=GoogleGuest \
     ro.error.receiver.system.apps=com.google.android.gms \
     ro.setupwizard.enterprise_mode=1 \
+    ro.setupwizard.rotation_locked=true \
     keyguard.no_require_sim=true \
     ro.facelock.black_timeout=400 \
     ro.facelock.det_timeout=1500 \
@@ -30,7 +31,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.storage_manager.enabled=1 \
     persist.service.adb.enable=1 \
     persist.audio.fluence.voicecall=false\
-    net.tethering.noprovisioning=true
+    net.tethering.noprovisioning=true \
 
 # Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/simpleaosp/overlays/common

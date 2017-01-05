@@ -36,7 +36,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/simpleaosp/overlays/common
 # Needed Packages
 PRODUCT_PACKAGES += \
     Busybox \
-    Launcher3
+    Launcher3 \
+    Masquerade
 
 # Import library to fix trusted face issues
 PRODUCT_PACKAGES += \

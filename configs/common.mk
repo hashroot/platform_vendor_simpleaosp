@@ -29,7 +29,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0 \
     persist.sys.dun.override=0 \
     persist.service.adb.enable=1 \
-    net.tethering.noprovisioning=true
+    net.tethering.noprovisioning=true\
+    ro.opa.eligible_device=true
 
 # Pull in Prebuilt applications for phones
 $(call inherit-product-if-exists, vendor/prebuilt/prebuilt.mk)

@@ -12,4 +12,4 @@ PRODUCT_MODEL := Nexus 6P
 PRODUCT_MANUFACTURER := Huawei
 
 # Build prop fingerprint overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="angler" BUILD_FINGERPRINT="google/angler/angler:7.1.1/NUF26K/3587663:user/release-keys" PRIVATE_BUILD_DESC="angler-user 7.1.1 NUF26K 3587663 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="angler" BUILD_FINGERPRINT="google/angler/angler:7.1.1/NUF26N/3687344:user/release-keys" PRIVATE_BUILD_DESC="angler-user 7.1.1 NUF26N 3687344 release-keys"

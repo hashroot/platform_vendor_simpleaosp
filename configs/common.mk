@@ -42,7 +42,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/simpleaosp/overlays/common
 PRODUCT_PACKAGES += \
     Busybox \
     Launcher3 \
-    ThemeInterfacer
+    ThemeInterfacer \
+    OmniJaws
 
 # Import library to fix trusted face issues
 PRODUCT_PACKAGES += \

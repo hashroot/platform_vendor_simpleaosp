@@ -81,3 +81,6 @@ include vendor/simpleaosp/configs/bootanimation.mk
 
 ## Don't compile SystemUITests
 EXCLUDE_SYSTEMUI_TESTS := true
+
+## Don't compile TelephonyTests
+EXCLUDE_TELEPHONY_TESTS := true

@@ -12,5 +12,5 @@ PRODUCT_MODEL := Nexus 6
 PRODUCT_MANUFACTURER := motorola
 
 # Build prop fingerprint overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="shamu" BUILD_FINGERPRINT="google/shamu/shamu:7.1.2/N2G47H/3783593:user/release-keys" PRIVATE_BUILD_DESC="shamu-user 7.1.2 N2G47H 3783593 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="shamu" BUILD_FINGERPRINT="google/shamu/shamu:7.1.2/N2G47O/3852959:user/release-keys" PRIVATE_BUILD_DESC="shamu-user 7.1.2 N2G47O 3852959 release-keys"
 

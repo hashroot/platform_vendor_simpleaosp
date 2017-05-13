@@ -30,7 +30,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.dun.override=0 \
     persist.service.adb.enable=1 \
     net.tethering.noprovisioning=true\
-    ro.opa.eligible_device=true
+    ro.opa.eligible_device=true \
+    ro.saosp.version=saosp-$(TARGET_DEVICE)-$(shell date +"%-d-%-m-%-y")
 
 # Pull in Prebuilt applications for phones
 $(call inherit-product-if-exists, vendor/prebuilt/prebuilt.mk)

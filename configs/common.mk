@@ -31,6 +31,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.service.adb.enable=1 \
     net.tethering.noprovisioning=true\
     ro.opa.eligible_device=true \
+    ro.com.google.ime.theme_id=5 \
     ro.saosp.version=saosp-$(TARGET_DEVICE)-$(shell date +"%-d-%-m-%-y")
 
 # Pull in Prebuilt applications for phones

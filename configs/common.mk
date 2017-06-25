@@ -42,6 +42,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/simpleaosp/overlays/common
 
 # Needed Packages
 PRODUCT_PACKAGES += \
+    AmazeFileManager \
     Busybox \
     ThemeInterfacer \
     OmniJaws

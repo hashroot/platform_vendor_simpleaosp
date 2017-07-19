@@ -5,3 +5,4 @@ add_lunch_combo saosp_shamu-user
 add_lunch_combo saosp_flo-userdebug
 add_lunch_combo saosp_flounder-userdebug
 add_lunch_combo saosp_hammerhead-userdebug
+add_lunch_combo saosp_potter-userdebug

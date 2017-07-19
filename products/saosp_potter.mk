@@ -23,7 +23,7 @@
 #
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/motorola/potter/saosp_potter.mk)
+$(call inherit-product, device/motorola/potter/aosp_potter.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/simpleaosp/configs/common.mk)
